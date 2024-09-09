@@ -18,9 +18,10 @@
  ****************************************************************************/
 #ifndef _AUDIO_EFFECTS_H
 #define _AUDIO_EFFECTS_H
-#define CONFIG_CACHE 0
+#define AUDIO_EFFECTS_CONFIG_CACHE 0
+#define AUDIO_EFFECTS_CONFIG_SET 1
+#define AUDIO_EFFECTS_CONFIG_GET 2
 #define CONFIG_SET 1
-#define CONFIG_GET 2
 #define VIRTUALIZER_MODULE 0x00001000
 #define VIRTUALIZER_ENABLE 0x00001001
 #define VIRTUALIZER_STRENGTH 0x00001002
